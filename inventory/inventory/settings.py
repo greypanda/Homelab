@@ -26,7 +26,7 @@ SECRET_KEY = '&!h9bqc43$h=%u#mqua+njapwcp6mf&1r-x2n=*6+4$%fa^5ix'
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+APPEND_SLASH = False
 
 # Application definition
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'network',
     'rest_framework',
+  
 ]
 
 MIDDLEWARE = [

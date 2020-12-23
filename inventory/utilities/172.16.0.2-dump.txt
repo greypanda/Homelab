@@ -1,0 +1,1 @@
+{"hostip": "172.16.0.2", "macaddress": "00:1E:06:32:82:D6", "vendor": "Wibrain", "hostname": "ns01.pandavista.org", "osname": "Linux 2.6.32 - 3.13", "ostype": "general purpose", "osvendor": "Linux", "osfamily": "Linux", "ports": "22,25,53,80,5666,"}

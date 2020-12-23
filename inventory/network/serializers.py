@@ -22,4 +22,7 @@ class DeviceSerializer(serializers.ModelSerializer):
                     'lastupdate',
                     'lastresponded',
         )
-
+    def update(self,instance,validated_data):
+        #instance.hostname = validated_data.get('hostname',instance.hostname)
+        instance.save()
+        return instance

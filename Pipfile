@@ -4,11 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+Django = "*"
 mac-vendor-lookup = "*"
 djangorestframework = "*"
-markdown = "*"
+Markdown = "*"
 django-filter = "*"
+python-nmap = "*"
+prettyprint = "*"
+python3-nmap = "*"
+python-libnmap = "*"
+ipykernel = "*"
+django-extensions-shell = "*"
 
 [dev-packages]
 
