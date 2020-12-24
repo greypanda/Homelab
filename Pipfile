@@ -15,6 +15,7 @@ python3-nmap = "*"
 python-libnmap = "*"
 ipykernel = "*"
 django-extensions-shell = "*"
+django = "*"
 
 [dev-packages]
 

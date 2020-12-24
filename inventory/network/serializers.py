@@ -21,8 +21,7 @@ class DeviceSerializer(serializers.ModelSerializer):
                     'discovered',
                     'lastupdate',
                     'lastresponded',
+                    'ansible_group',
+                    'dns_group',
         )
-    def update(self,instance,validated_data):
-        #instance.hostname = validated_data.get('hostname',instance.hostname)
-        instance.save()
-        return instance
+    
